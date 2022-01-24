@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+/* font-family: 'Yellowtail', cursive; */
+.admin-login-body{
+    background-color: #1e3d59;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+.vendor-login-body{
+    background-color: #f5f0e1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+.admin-login-con{
+    background-color: white;
+    border-radius: 3%;
+    width: fit-content;
+    height: auto;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    background-image: url('/image/bg.jpg');
+    background-repeat: repeat-x;
+}
+.admin-login-left-con{
+    background-color: white;
+    height: 500px;
+    float: left;
+    width: 350px;
+    border-radius: 3%;
+}
+.admin-login-text{
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.admin-login-img{
+    height: 500px;
+    width: fit-content;
+    border-radius: 3%;
+}
+.admin-login-h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin: 20px;
+}
+.admin-login-form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.label-text{
+    color: black;
+}
+.form-control{
+    float: left;
+    display: flex;
+}
+.app-name-text{
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    font-size: 80px;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 40px #0D95FF,
+      0 0 80px #0D95FF,
+      0 0 90px #0D95FF,
+      0 0 100px #0D95FF,
+      0 0 140px #0D95FF;
+}
+
+.nav-li{
+    margin-bottom: 30px;
+}
+
+.vendor-register-con{
+    height: auto;
+    width:100%;
+    border-radius: 3%;
+    padding: 10px;
+    float: left;
+}
+.register-form{
+    margin: 10px;
+    padding: 10px;
+}
+.spacer{
+    height: 20px;
+}
+.vendor-register-h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.error-li{
+    
+    color: red;
+    font-size: 15px;
+}
+.nav-li2{
+    margin-bottom: 20px;
+  }

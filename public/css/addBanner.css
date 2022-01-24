@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+
+.drawer-con{
+    margin: 0.5%;
+    overflow: hidden;
+}
+
+.menu-icon{
+    margin: 10px;
+}
+
+.banner-text{
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.logout-li{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.title-text{
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+}
+
+.spacer{
+    height: 50px;
+}
+
+.form-control{
+    margin-bottom: 15px;
+}
+.active-text{
+    color: chartreuse;
+}
+
+.inactive-text{
+    color: red;
+}
+
+.nav-li{
+    margin-bottom: 30px;
+}
+.error-li{
+    
+    color: red;
+    font-size: 15px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: lime;
+}
+.nav-li2{
+    margin-bottom: 20px;
+  }

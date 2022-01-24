@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.title-text{
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    /* text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 40px #0D95FF,
+      0 0 80px #0D95FF,
+      0 0 90px #0D95FF,
+      0 0 100px #0D95FF,
+      0 0 140px #0D95FF; */
+}
+body{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+            
+}
+.drawer-con{
+  margin: 0.5%;
+}
+.menu-icon{
+  margin: 10px;
+}
+.logout-li{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.spacer{
+  height: 50px;
+}
+
+.nav-li{
+  margin-bottom: 30px;
+}
+
+.link-hover:hover{
+  text-decoration: none;
+  color: aquamarine;
+  /* text-shadow:
+      0 0 7px rgb(138, 136, 136),
+      0 0 10px rgb(138, 136, 136),
+      0 0 21px rgb(138, 136, 136),
+      0 0 5px #0dffb6,
+      0 0 10px #0dffb6,
+      0 0 20px #0dffb6,
+      0 0 30px #0dffb6,
+      0 0 40px #0dffb6; */
+}
+
+.active-text{
+  color: chartreuse;
+}
+
+.inactive-text{
+  color: red;
+}
+.error-li{
+    
+  color: red;
+  font-size: 15px;
+}
+.nav-li2{
+  margin-bottom: 20px;
+}
